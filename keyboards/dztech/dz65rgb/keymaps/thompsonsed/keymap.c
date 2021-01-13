@@ -2,17 +2,17 @@
 
 enum custom_keycodes{
 	ARRW_L = SAFE_RANGE,
-	ARRW_R = SAFE_RANGE,
+	ARRW_R,
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 	switch(keycode){
-		case ASSIGN_LEFT_SHORTCUT:
+		case ARRW_L:
 			if(record->event.pressed){
 				SEND_STRING("<-");
 			}
 			break;
-		case ASSIGN_RIGHT_SHORTCUT:
+		case ARRW_R:
 			if(record->event.pressed){
 				SEND_STRING("->");
 			}
