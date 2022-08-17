@@ -21,7 +21,7 @@
 #define DEVICE_VER 0x0002
 #define MANUFACTURER DZTECH
 #define PRODUCT DZ65RGB
-#define USB_POLLING_INTERVAL_MS 20
+#define USB_POLLING_INTERVAL_MS 2
 #define DEBOUNCE 10
 /* key matrix size */
 #define MATRIX_ROWS 5
