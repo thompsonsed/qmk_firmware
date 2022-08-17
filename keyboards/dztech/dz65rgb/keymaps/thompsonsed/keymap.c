@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[1] = LAYOUT_65_ansi(
         KC_GRAVE,        KC_F1,   KC_F2,   KC_F3,  KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,    KC_HOME,
         KC_TAB,         _______, _______, _______, KC_WREF, _______, _______, KC_HOME, KC_UP,   KC_END,  KC_PSCR, KC_SLCK, KC_PAUS, KC_GRAVE,  KC_MEDIA_PLAY_PAUSE,
-        MO(1), 			_______, _______, KC_WBAK, KC_WFWD, _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_NUHS,          EEP_RST,   KC_PSCREEN,
+        MO(0), 			_______, _______, KC_WBAK, KC_WFWD, _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_NUHS,          EEP_RST,   KC_PSCREEN,
         KC_LSFT,                 KC_NUHS, _______, _______, _______, _______, NK_TOGG, _______, ARRW_L,  ARRW_R,  _______, _______, KC_VOLU,   KC_MUTE,
         KC_LCTL,        KC_LGUI, KC_LALT,                            KC_SPC,                    DF(0),   _______, MO(0),   KC_MPRV, KC_VOLD,   KC_MNXT
     ),
